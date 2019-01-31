@@ -9,5 +9,5 @@ bundle install --path vendor/bundle
 # run
 
 ```
-bundle exec rake spec
+TARGET_HOST=targethost bundle exec rake spec
 ```
